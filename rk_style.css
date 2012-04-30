@@ -1,0 +1,710 @@
+/*  --------------- Start Small Styles --------------- */
+
+.rk-wdgt-wpr-small {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	width: 150px;
+	height: auto;
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-small .rk-logo {
+	width: 150px;
+	height: 27px;
+	background-image: url("images/smallLogo.png");
+}
+
+.rk-wdgt-wpr-small h1 {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #111;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 7px 0px;
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.rk-wdgt-wpr-small .fitness-feed {
+	background-color: #FFF;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	height: auto;
+	padding: 7px 0px;
+}
+
+.rk-wdgt-wpr-small .major-feed {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-small .fitness-feed hr {
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-small .fitness-feed p {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	line-height: 11px;
+	padding-left: 10px;
+}
+
+.rk-wdgt-wpr-small .date {
+	background-image: url("images/smallLatest.png");
+	background-repeat: no-repeat;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	margin-left: 6px;
+	height: 15px;
+	padding-top: 1px;
+	padding-left: 54px;
+}
+
+.rk-wdgt-wpr-small .latest {
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+.rk-wdgt-wpr-small .latest a {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+}
+
+.rk-wdgt-wpr-small .latest a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-small .activity {
+	width: 130px;
+	height: 46px;
+	background-image: url("images/small-stats-bg.png");
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.rk-wdgt-wpr-small .activity-reflection {
+	width: 130px;
+	height: 46px;
+	background-image: url("images/small-stats-reflection.png");
+	background-color: transparent;
+	margin: 0 auto;
+	z-index: 10;
+	vertical-align: baseline;
+	position: absolute;
+}
+
+.rk-wdgt-wpr-small .distance {
+	width: 50px;
+}
+
+.rk-wdgt-wpr-small .duration {
+	width: 50px;
+}
+
+.rk-wdgt-wpr-small .distance, .rk-wdgt-wpr-small .duration {
+	height: 36px;
+	padding: 5px 7px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+}
+
+.rk-wdgt-wpr-small .divider {
+	width: 1px;
+	height: 46px;
+	background-image: url("images/small-stats-divider.png");
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: baseline;
+	float: left;
+}
+
+.rk-wdgt-wpr-small .label, .rk-wdgt-wpr-small .unit {
+	color: #FFF;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	height: 10px;
+	line-height: 10px;
+	margin: 0;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 1px 1px 2px;
+	vertical-align: baseline;
+	text-align: center;
+	width: 50px;
+}
+
+.rk-wdgt-wpr-small .result {
+	color: #FFF;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	height: 13px;
+	line-height: 13px;
+	margin: 2px 0px;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 2px 2px 4px;
+	vertical-align: baseline;
+	width: auto;
+}
+
+.rk-wdgt-wpr-small .minor-type {
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	text-align: center;
+	padding: 3px 0px;
+}
+
+.rk-wdgt-wpr-small .minor-type a {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+	margin-right: 5px;
+}
+
+.rk-wdgt-wpr-small .minor-type a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-small .minor-feed {
+	width: 130;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-small .minor-result-km {
+	width: 54px;
+}
+
+.rk-wdgt-wpr-small .minor-result-time {
+	width: 72px;
+}
+
+.rk-wdgt-wpr-small .minor-result-km, .rk-wdgt-wpr-small .minor-result-time {
+	height: auto;
+	padding: 2px 5px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+}
+
+.rk-wdgt-wpr-small .rk-footer {
+	width: 150px
+	height: 18px;
+	background-color: #666;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*  --------------- End Small Styles --------------- */
+
+
+
+/*  --------------- Start Medium Styles --------------- */
+
+.rk-wdgt-wpr-medium {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	width: 200px;
+	height: auto;
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-medium .rk-logo {
+	width: 200px;
+	height: 36px;
+	background-image: url("images/mediumLogo.png");
+}
+
+.rk-wdgt-wpr-medium h1 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #111;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.rk-wdgt-wpr-medium .fitness-feed {
+	background-color: #FFF;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	height: auto;
+	padding: 10px 0px;
+}
+
+.rk-wdgt-wpr-medium .major-feed {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-medium .fitness-feed hr {
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-medium .fitness-feed p {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	line-height: 11px;
+	padding-left: 10px;
+}
+
+.rk-wdgt-wpr-medium .date {
+	background-image: url("images/latest.png");
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666;
+	margin-left: 9px;
+	height: 19px;
+	padding-top: 1px;
+	padding-left: 65px;
+}
+
+.rk-wdgt-wpr-medium .latest {
+	text-align: center;
+	padding-bottom: 7px;
+}
+
+.rk-wdgt-wpr-medium .latest a {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+}
+
+.rk-wdgt-wpr-medium .latest a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-medium .activity {
+	width: 180px;
+	height: 64px;
+	background-image: url("images/stats-bg.png");
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.rk-wdgt-wpr-medium .activity-reflection {
+	width: 180px;
+	height: 64px;
+	background-image: url("images/stats-reflection.png");
+	background-color: transparent;
+	margin: 0 auto;
+	z-index: 10;
+	vertical-align: baseline;
+	position: absolute;
+}
+
+.rk-wdgt-wpr-medium .distance {
+	width: 59px;
+}
+
+.rk-wdgt-wpr-medium .duration {
+	width: 60px;
+}
+
+.rk-wdgt-wpr-medium .distance, .rk-wdgt-wpr-medium .duration {
+	height: 54px;
+	padding: 5px 15px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+}
+
+.rk-wdgt-wpr-medium .divider {
+	width: 1px;
+	height: 64px;
+	background-image: url("images/stats-divider.png");
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: baseline;
+	float: left;
+}
+
+.rk-wdgt-wpr-medium .label, .rk-wdgt-wpr-medium .unit {
+	color: #FFF;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	height: 10px;
+	line-height: 10px;
+	margin: 0;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 1px 1px 2px;
+	vertical-align: baseline;
+	text-align: center;
+	width: 59px;
+}
+
+.rk-wdgt-wpr-medium .result {
+	color: #FFF;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	margin: 3px 0px;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 2px 2px 4px;
+	vertical-align: baseline;
+	width: auto;
+}
+
+.rk-wdgt-wpr-medium .minor-type {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	text-align: center;
+	padding: 3px 0px;
+}
+
+.rk-wdgt-wpr-medium .minor-type a {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+	margin-right: 5px;
+}
+
+.rk-wdgt-wpr-medium .minor-type a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-medium .minor-feed {
+	width: 180;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-medium .minor-result-km {
+	width: 60px;
+}
+
+.rk-wdgt-wpr-medium .minor-result-time {
+	width: 98px;
+}
+
+.rk-wdgt-wpr-medium .minor-result-km, .rk-wdgt-wpr-medium .minor-result-time {
+	height: auto;
+	padding: 2px 10px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+}
+
+.rk-wdgt-wpr-medium .rk-footer {
+	width: 200px;
+	height: 18px;
+	background-color: #666;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*  --------------- End Medium Styles --------------- */
+
+
+
+/*  --------------- Large Small Styles --------------- */
+
+.rk-wdgt-wpr-large {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	width: 250px;
+	height: auto;
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-large .rk-logo {
+	width: 250px;
+	height: 45px;
+	background-image: url("images/largeLogo.png");
+}
+
+.rk-wdgt-wpr-large h1 {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #111;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.rk-wdgt-wpr-large .fitness-feed {
+	background-color: #FFF;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	height: auto;
+	padding: 10px 0px;
+}
+
+.rk-wdgt-wpr-large .major-feed {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-large .fitness-feed hr {
+	margin: 0px;
+}
+
+.rk-wdgt-wpr-large .fitness-feed p {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	line-height: 11px;
+	padding-left: 10px;
+}
+
+.rk-wdgt-wpr-large .date {
+	background-image: url("images/latest.png");
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666;
+	margin-left: 20px;
+	height: 19px;
+	padding-left: 65px;
+}
+
+.rk-wdgt-wpr-large .latest {
+	text-align: center;
+	padding: 5px 0px 11px 0px;
+}
+
+.rk-wdgt-wpr-large .latest a {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+}
+
+.rk-wdgt-wpr-large .latest a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-large .activity {
+	width: 230px;
+	height: 82px;
+	background-image: url("images/large-stats-bg.png");
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.rk-wdgt-wpr-large .activity-reflection {
+	width: 230px;
+	height: 82px;
+	background-image: url("images/large-stats-reflection.png");
+	background-color: transparent;
+	margin: 0 auto;
+	z-index: 10;
+	vertical-align: baseline;
+	position: absolute;
+}
+
+.rk-wdgt-wpr-large .distance {
+	width: 84px;
+}
+
+.rk-wdgt-wpr-large .duration {
+	width: 85px;
+}
+
+.rk-wdgt-wpr-large .distance, .rk-wdgt-wpr-large .duration {
+	height: 54px;
+	padding: 5px 15px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+}
+
+.rk-wdgt-wpr-large .divider {
+	width: 1px;
+	height: 82px;
+	background-image: url("images/large-stats-divider.png");
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: baseline;
+	float: left;
+}
+
+.rk-wdgt-wpr-large .label, .rk-wdgt-wpr-large .unit {
+	color: #FFF;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	height: 10px;
+	line-height: 10px;
+	margin: 3px 0px;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 1px 1px 2px;
+	vertical-align: baseline;
+	text-align: center;
+	width: auto;
+}
+
+.rk-wdgt-wpr-large .result {
+	color: #FFF;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	margin: 9px 0px;
+	outline-color: white;
+	outline-style: none;
+	outline-width: 0px;
+	padding: 0px;
+	text-align: center;
+	text-shadow: #333 2px 2px 4px;
+	vertical-align: baseline;
+	width: auto;
+}
+
+.rk-wdgt-wpr-large .minor-type {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	text-align: center;
+	padding: 3px 0px;
+}
+
+.rk-wdgt-wpr-large .minor-type a {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #2A5DB0;
+	margin-right: 20px;
+}
+
+.rk-wdgt-wpr-large .minor-type a:hover {
+	color: #1C4381;
+}
+
+.rk-wdgt-wpr-large .minor-feed {
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #EEE;
+}
+
+.rk-wdgt-wpr-large .minor-result-km {
+	width: 85px;
+}
+
+.rk-wdgt-wpr-large .minor-result-time {
+	width: 120px;
+}
+
+.rk-wdgt-wpr-large .minor-result-km, .rk-wdgt-wpr-large .minor-result-time {
+	height: auto;
+	padding: 2px 10px;
+	background-image: none;
+	background-color: transparent;
+	background-clip: border-box;
+	background-origin: padding-box;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+}
+
+.rk-wdgt-wpr-large .rk-footer {
+	width: 250px;
+	height: 18px;
+	background-color: #666;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*  --------------- Large Small Styles --------------- */
